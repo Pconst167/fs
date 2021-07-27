@@ -1,0 +1,12 @@
+sys_bkpt         .EQU  $0000
+sys_rtc          .EQU  $0001
+sys_ide          .EQU  $0002
+sys_io           .EQU  $0003
+sys_fileio       .EQU  $0004
+sys_fork         .EQU  $0005
+sys_fwb          .EQU  $0006
+sys_fwk          .EQU  $0007
+sys_list         .EQU  $0008
+sys_datetime     .EQU  $0009
+sys_reboot       .EQU  $000a
+transient_area   .EQU  $25f4

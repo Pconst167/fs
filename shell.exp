@@ -1,0 +1,1 @@
+shell_transient_area .EQU  $0b33
